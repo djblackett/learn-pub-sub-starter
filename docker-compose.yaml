@@ -1,0 +1,8 @@
+services:
+  rabbitmq:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 61613:61613
+      - 5672:5672
+      - 15672:15672
